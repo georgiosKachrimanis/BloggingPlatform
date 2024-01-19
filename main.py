@@ -16,7 +16,6 @@ app.config["SECRET_KEY"] = "CreateYourOwnSecretKey"
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
-
 login_manager = LoginManager()
 login_manager.init_app(app)
 
